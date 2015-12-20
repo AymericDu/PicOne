@@ -1,0 +1,218 @@
+/*
+Thibault Arloing
+Aymeric Ducroquetz
+*/
+
+body {
+	margin: 0px;
+}
+
+span.green {
+	color: #8DC73F;
+}
+
+header {
+	background-color: #444444;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	color: white;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+}
+
+body, header {
+	min-width: 900px;
+}
+
+header #logo img {
+	height: 70px;
+	position: absolute;
+	left: 10px;
+	top: 15px;
+}
+
+header #parameter {
+	width: 200px;
+	text-align: right;
+	background-color: #444444;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 13px 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+header #parameter input {
+	width: 192px;
+}
+
+header #parameter img {
+	height: 70px;
+	cursor: pointer;
+}
+
+header #parameter span#error_login {
+	font-size: 11px;
+}
+
+header #parameter div {
+	margin-top: 10px;
+	display: none;
+}
+
+header #parameter div p {
+	margin: 10px 0px;
+}
+
+#menu {
+	background-color: #7A7A7A;
+	color: white;
+	width: 210px;
+	margin-top:100px;
+	padding: 10px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	overflow: auto;
+	z-index: 2;
+}
+
+#menu > * {
+	padding-left: 5px;
+}
+
+#menu p {
+	margin: 10px 0px;
+}
+
+#menu h2 {
+	padding-left: 0px;
+}
+
+#menu input {
+	width: 192px;
+}
+
+#menu select {
+	width: 200px;
+}
+
+header a, #menu a {
+	color: white;
+}
+
+.main {
+	margin-top: 100px;
+	margin-left: 230px;
+	padding: 10px;
+}
+
+#library {
+	text-align: center;
+}
+
+#library form {
+	margin-bottom: 120px;
+}
+
+#library form input {
+	position: absolute;
+	left: 0px;
+}
+
+#library form article, #library form article > div {
+	background-color: #F1F1F1;
+}
+
+#library form article {
+	position: relative;
+	width: 300px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#library form article img {
+	display: block;
+	margin: auto;
+}
+
+#library form article div {
+	width: 290px;
+	font-size: 12px;
+	text-align: left;
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	opacity: 0.9;
+	z-index: 1;
+}
+
+#library form article div p {
+	margin: 5px 0px;
+}
+
+#library form #collectionButtons {
+	position: fixed;
+	top: 70px;
+	left: 260px;
+	z-index: 3;
+}
+
+#diapo {
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.95);
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 4;
+}
+
+#diapo #imgDiapo {
+	max-width: 90%;
+	max-height: 90%;
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#diapo #cross {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 2%;
+	cursor: pointer;
+	margin: 10px;
+}
+
+#diapo #previous, #diapo #next {
+	position: absolute;
+	top: 35%;
+	width: 3.5%;
+	height: 30%;
+	cursor: pointer;
+}
+
+#diapo #previous {
+	left: 0px;
+}
+
+#diapo #next {
+	right: 0px;
+}
+
+#accountUnsubscribeForm #unsubscribeConfirmation {
+	display: none;
+}
